@@ -1,0 +1,13 @@
+{
+  "name": "docs-examples",
+  "private": true,
+  "type": "module",
+  "description": "Runs the read-only examples from the dreamDEX perps developer reference against the live Hideki testnet, using the SDK version the docs name.",
+  "dependencies": {
+    "@somnia-chain/markets-sdk": "0.32.1",
+    "viem": "^2.21.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0"
+  }
+}
